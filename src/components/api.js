@@ -14,6 +14,7 @@ class Api extends Component {
             const persons = res.data;
             this.setState({ persons });
             console.log("person data",res.data);
+            console.log("person data",res.data);
           
           })
       }
