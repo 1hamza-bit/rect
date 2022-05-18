@@ -12,12 +12,20 @@ import Taable from './components/crm/table';
 import Postt from './components/crm/post';
 import Views from './components/crm/views'
 import Task from './components/crm/task'
+import Puts from './components/crm/put'
+import Sc from './components/video/sc';
+import Track from './components/crm/tracking';
+// import MyEditor from './components/Editor/editor'
 function App() {
   return (
     <div >
-      <Task/>
-      {/* <Post />
-    <Taable />  */}
+
+      {/* <MyEditor/> */}
+      {/* <Puts/> */}
+      <Track />
+      {/* <Sc/> */}
+      {/* <Post /> */}
+     
       {/* <GetNotification/>  */}
       {/* <Imageupload />
       
